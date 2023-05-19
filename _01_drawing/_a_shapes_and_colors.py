@@ -10,24 +10,25 @@ if __name__ == '__main__':
     # Make your turtle's shape 'turtle', .shape('turtle')
     Chunky_Guy.shape("turtle")
     # Set your turtle's speed using .speed(2)
-    Chunky_Guy.speed(2)
+    Chunky_Guy.speed(1000000000000000000000000000000)
     # Set your turtle's color using .color('green') and .pencolor('blue')
     Chunky_Guy.color('lime')
     # Move your turtle forward using .forward(100)
     # TEST    Did your turtle move forward?
     Chunky_Guy.begin_fill()
-    Chunky_Guy.forward(150)
+    Chunky_Guy.forward(2)
     # Move your turtle left or right using .left(90) or .right(90)
-    for i in range(100):
-        Chunky_Guy.left(90)
-        Chunky_Guy.forward(150)
-        Chunky_Guy.left(90)
-        Chunky_Guy.forward(150)
-        Chunky_Guy.left(90)
-        Chunky_Guy.forward(150)
-        Chunky_Guy.end_fill()
+    for i in range(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
+        Chunky_Guy.forward(1)
+        Chunky_Guy.left(36)
+        Chunky_Guy.forward(1)
+        Chunky_Guy.right(2000)
+        Chunky_Guy.forward(170)
+        Chunky_Guy.left(390)
 
-    # Now put the forward and left/right code into a for loop to repeat 4 times.
+
+    # Now put the forward a
+    # nd left/right code into a for loop to repeat 4 times.
     # TEST    Did your turtle draw a square?
 
     # Move your turtle to a new place on the screen using .goto(x, y)
@@ -42,5 +43,5 @@ if __name__ == '__main__':
     # Draw 3 more shapes with different fill colors!
 
     # ===================== DO NOT EDIT THE CODE BELOW ============================
-    turtle.done()
+    Chunky_Guy.done
 
