@@ -13,7 +13,7 @@ def set_background(filename):
 
     window.setup(image.width, image.height, startx=0, starty=0)
     window.bgpic(filename)
-
+    window.setup(startx=5, starty=17)
 
 def add_moustache(filename):
     m = turtle.Turtle()

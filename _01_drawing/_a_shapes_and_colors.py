@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # Move your turtle left or right using .left(90) or .right(90)
     for i in range(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
         Chunky_Guy.forward(1)
-        Chunky_Guy.left(36)
+        Chunky_Guy.left(3)
         Chunky_Guy.forward(1)
         Chunky_Guy.right(2000)
         Chunky_Guy.forward(170)
