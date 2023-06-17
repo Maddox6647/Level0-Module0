@@ -3,12 +3,13 @@ from tkinter import messagebox, simpledialog, Tk
 # Create an if-main code block, *hint, type main then ctrl+space to auto-complete
 if __name__ == '__main__':
     # Make a new window variable, window = Tk()
-
+    mrbob = Tk()
     # Hide the window using the window's .withdraw() method
-
+    mrbob.withdraw()
     # Put this sentence in a pop-up message box:
     # "If you find yourself having to cross a piranha-infested river, here's how to do it..."
-
+    intro = "If you find yourself having to cross over a piranha-infested river, here's how to do it..."
+    messagebox.showinfo(title= 'hello', message= intro)
     # Get the player to enter an adjective
 
     # Get the player to enter a type of liquid
